@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C47053611B49603500F39DBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C47053601B49603500F39DBA /* main.m */; };
+		C47053641B49603500F39DBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C47053631B49603500F39DBA /* AppDelegate.m */; };
+		C47053671B49603500F39DBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C47053661B49603500F39DBA /* ViewController.m */; };
+		C470536A1B49603500F39DBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47053681B49603500F39DBA /* Main.storyboard */; };
+		C470536C1B49603500F39DBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C470536B1B49603500F39DBA /* Images.xcassets */; };
+		C470536F1B49603500F39DBA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C470536D1B49603500F39DBA /* LaunchScreen.xib */; };
+		C470537B1B49603500F39DBA /* ArduinoRobotAITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C470537A1B49603500F39DBA /* ArduinoRobotAITests.m */; };
+		C47053881B49609600F39DBA /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = C47053861B49609600F39DBA /* BLE.m */; };
+		C470538B1B496AF400F39DBA /* SelectBLEDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C470538A1B496AF400F39DBA /* SelectBLEDeviceViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C47053751B49603500F39DBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C47053531B49603500F39DBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C470535A1B49603500F39DBA;
+			remoteInfo = ArduinoRobotAI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C470535B1B49603500F39DBA /* ArduinoRobotAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArduinoRobotAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C470535F1B49603500F39DBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C47053601B49603500F39DBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C47053621B49603500F39DBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C47053631B49603500F39DBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C47053651B49603500F39DBA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C47053661B49603500F39DBA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C47053691B49603500F39DBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C470536B1B49603500F39DBA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C470536E1B49603500F39DBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C47053741B49603500F39DBA /* ArduinoRobotAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArduinoRobotAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47053791B49603500F39DBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C470537A1B49603500F39DBA /* ArduinoRobotAITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArduinoRobotAITests.m; sourceTree = "<group>"; };
+		C47053851B49609600F39DBA /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLE.h; sourceTree = "<group>"; };
+		C47053861B49609600F39DBA /* BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLE.m; sourceTree = "<group>"; };
+		C47053871B49609600F39DBA /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDefines.h; sourceTree = "<group>"; };
+		C47053891B496AF400F39DBA /* SelectBLEDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectBLEDeviceViewController.h; sourceTree = "<group>"; };
+		C470538A1B496AF400F39DBA /* SelectBLEDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectBLEDeviceViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C47053581B49603500F39DBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47053711B49603500F39DBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C47053521B49603500F39DBA = {
+			isa = PBXGroup;
+			children = (
+				C470535D1B49603500F39DBA /* ArduinoRobotAI */,
+				C47053771B49603500F39DBA /* ArduinoRobotAITests */,
+				C470535C1B49603500F39DBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C470535C1B49603500F39DBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C470535B1B49603500F39DBA /* ArduinoRobotAI.app */,
+				C47053741B49603500F39DBA /* ArduinoRobotAITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C470535D1B49603500F39DBA /* ArduinoRobotAI */ = {
+			isa = PBXGroup;
+			children = (
+				C47053841B49609600F39DBA /* BLE */,
+				C47053621B49603500F39DBA /* AppDelegate.h */,
+				C47053631B49603500F39DBA /* AppDelegate.m */,
+				C47053651B49603500F39DBA /* ViewController.h */,
+				C47053661B49603500F39DBA /* ViewController.m */,
+				C47053681B49603500F39DBA /* Main.storyboard */,
+				C47053891B496AF400F39DBA /* SelectBLEDeviceViewController.h */,
+				C470538A1B496AF400F39DBA /* SelectBLEDeviceViewController.m */,
+				C470536B1B49603500F39DBA /* Images.xcassets */,
+				C470536D1B49603500F39DBA /* LaunchScreen.xib */,
+				C470535E1B49603500F39DBA /* Supporting Files */,
+			);
+			path = ArduinoRobotAI;
+			sourceTree = "<group>";
+		};
+		C470535E1B49603500F39DBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C470535F1B49603500F39DBA /* Info.plist */,
+				C47053601B49603500F39DBA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C47053771B49603500F39DBA /* ArduinoRobotAITests */ = {
+			isa = PBXGroup;
+			children = (
+				C470537A1B49603500F39DBA /* ArduinoRobotAITests.m */,
+				C47053781B49603500F39DBA /* Supporting Files */,
+			);
+			path = ArduinoRobotAITests;
+			sourceTree = "<group>";
+		};
+		C47053781B49603500F39DBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C47053791B49603500F39DBA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C47053841B49609600F39DBA /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				C47053851B49609600F39DBA /* BLE.h */,
+				C47053861B49609600F39DBA /* BLE.m */,
+				C47053871B49609600F39DBA /* BLEDefines.h */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C470535A1B49603500F39DBA /* ArduinoRobotAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C470537E1B49603500F39DBA /* Build configuration list for PBXNativeTarget "ArduinoRobotAI" */;
+			buildPhases = (
+				C47053571B49603500F39DBA /* Sources */,
+				C47053581B49603500F39DBA /* Frameworks */,
+				C47053591B49603500F39DBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArduinoRobotAI;
+			productName = ArduinoRobotAI;
+			productReference = C470535B1B49603500F39DBA /* ArduinoRobotAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C47053731B49603500F39DBA /* ArduinoRobotAITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47053811B49603500F39DBA /* Build configuration list for PBXNativeTarget "ArduinoRobotAITests" */;
+			buildPhases = (
+				C47053701B49603500F39DBA /* Sources */,
+				C47053711B49603500F39DBA /* Frameworks */,
+				C47053721B49603500F39DBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C47053761B49603500F39DBA /* PBXTargetDependency */,
+			);
+			name = ArduinoRobotAITests;
+			productName = ArduinoRobotAITests;
+			productReference = C47053741B49603500F39DBA /* ArduinoRobotAITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C47053531B49603500F39DBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Giovanni Murru";
+				TargetAttributes = {
+					C470535A1B49603500F39DBA = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C47053731B49603500F39DBA = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C470535A1B49603500F39DBA;
+					};
+				};
+			};
+			buildConfigurationList = C47053561B49603500F39DBA /* Build configuration list for PBXProject "ArduinoRobotAI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C47053521B49603500F39DBA;
+			productRefGroup = C470535C1B49603500F39DBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C470535A1B49603500F39DBA /* ArduinoRobotAI */,
+				C47053731B49603500F39DBA /* ArduinoRobotAITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C47053591B49603500F39DBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C470536A1B49603500F39DBA /* Main.storyboard in Resources */,
+				C470536F1B49603500F39DBA /* LaunchScreen.xib in Resources */,
+				C470536C1B49603500F39DBA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47053721B49603500F39DBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C47053571B49603500F39DBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47053671B49603500F39DBA /* ViewController.m in Sources */,
+				C470538B1B496AF400F39DBA /* SelectBLEDeviceViewController.m in Sources */,
+				C47053641B49603500F39DBA /* AppDelegate.m in Sources */,
+				C47053611B49603500F39DBA /* main.m in Sources */,
+				C47053881B49609600F39DBA /* BLE.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47053701B49603500F39DBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C470537B1B49603500F39DBA /* ArduinoRobotAITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C47053761B49603500F39DBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C470535A1B49603500F39DBA /* ArduinoRobotAI */;
+			targetProxy = C47053751B49603500F39DBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C47053681B49603500F39DBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C47053691B49603500F39DBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C470536D1B49603500F39DBA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C470536E1B49603500F39DBA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C470537C1B49603500F39DBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C470537D1B49603500F39DBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C470537F1B49603500F39DBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ArduinoRobotAI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = ArduinoRobotAI;
+			};
+			name = Debug;
+		};
+		C47053801B49603500F39DBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ArduinoRobotAI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = ArduinoRobotAI;
+			};
+			name = Release;
+		};
+		C47053821B49603500F39DBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ArduinoRobotAITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = ArduinoRobotAITests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArduinoRobotAI.app/ArduinoRobotAI";
+			};
+			name = Debug;
+		};
+		C47053831B49603500F39DBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ArduinoRobotAITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = ArduinoRobotAITests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArduinoRobotAI.app/ArduinoRobotAI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C47053561B49603500F39DBA /* Build configuration list for PBXProject "ArduinoRobotAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C470537C1B49603500F39DBA /* Debug */,
+				C470537D1B49603500F39DBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C470537E1B49603500F39DBA /* Build configuration list for PBXNativeTarget "ArduinoRobotAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C470537F1B49603500F39DBA /* Debug */,
+				C47053801B49603500F39DBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C47053811B49603500F39DBA /* Build configuration list for PBXNativeTarget "ArduinoRobotAITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47053821B49603500F39DBA /* Debug */,
+				C47053831B49603500F39DBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C47053531B49603500F39DBA /* Project object */;
+}
