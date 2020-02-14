@@ -163,7 +163,7 @@ NSString * const  kLinkedDevice = @"kLinkedDevice";
     [[NSUserDefaults standardUserDefaults] synchronize];
     if (bleShield.activePeripheral)
     {
-        if(bleShield.activePeripheral.isConnected)
+        if(bleShield.isConnected)
         {
             [bleShield disconnectPeripheral:[bleShield activePeripheral]];
         }
@@ -176,7 +176,7 @@ NSString * const  kLinkedDevice = @"kLinkedDevice";
     NSLog(@"Scanning for BLE devices");
     if (bleShield.activePeripheral)
     {
-        if(bleShield.activePeripheral.isConnected)
+        if(bleShield.isConnected)
         {
             [bleShield disconnectPeripheral:[bleShield activePeripheral]];
             return;
@@ -224,10 +224,10 @@ NSString * const  kLinkedDevice = @"kLinkedDevice";
             {
                 CBPeripheral *p = [bleShield.peripherals objectAtIndex:i];
                 
-                if (p.UUID != NULL)
+                if (p.identifier.UUIDString != NULL)
                 {
                     //Comparing UUIDs and call connectPeripheral is matched
-                    if([self.linkedDeviceID isEqualToString:[self getUUIDString:p.UUID]])
+                    if([self.linkedDeviceID isEqualToString:p.identifier.UUIDString])
                     {
                         [bleShield connectPeripheral:p];
                         [self setConnectedInterface];
@@ -245,9 +245,9 @@ NSString * const  kLinkedDevice = @"kLinkedDevice";
             {
                 CBPeripheral *p = [bleShield.peripherals objectAtIndex:i];
                 
-                if (p.UUID != NULL)
+                if (p.identifier.UUIDString != NULL)
                 {
-                    [self.mDevices insertObject:[self getUUIDString:p.UUID] atIndex:i];
+                    [self.mDevices insertObject:p.identifier.UUIDString atIndex:i];
                 }
                 else
                 {
@@ -478,7 +478,7 @@ NSString * const  kLinkedDevice = @"kLinkedDevice";
 {
     //Save UUID into system
     NSLog(@"The device did connect");
-    self.linkedDeviceID = [self getUUIDString:bleShield.activePeripheral.UUID];
+    self.linkedDeviceID = bleShield.activePeripheral.identifier.UUIDString;//[self getUUIDString:];
     [[NSUserDefaults standardUserDefaults] setObject:self.linkedDeviceID forKey:kLinkedDevice];
     [[NSUserDefaults standardUserDefaults] synchronize];
     
